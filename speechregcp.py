@@ -1,6 +1,9 @@
 import streamlit as st
 import speech_recognition as sr
 import os
+import os
+os.system('pip install pyaudio')
+
 from datetime import datetime
 
 def transcribe_speech(recognizer, microphone, api_choice, language):
